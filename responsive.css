@@ -1,0 +1,36 @@
+@media screen and (max-width:600px) {
+    .headerright{
+        display:none;
+    }
+    .headerleft{
+        width:100%;
+
+    }
+    
+    #about .aboutcontainer .aboutleft{
+        display:none;
+    }
+    #about .aboutcontainer .aboutright{
+        max-width:100%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #menu .menucontainer .menuleft{
+        max-width:100%;
+        padding-left:24px;
+        padding-right:24px;
+        display:block;
+    }
+    #menu .menucontainer .menuright{
+        max-width:100%;
+        padding-left:24px;
+        padding-right:24px;
+        display:block;
+        float:left;
+    
+    }
+    #menu .menucontainer .menuright img{
+        width:1100px;;
+    }
+}
